@@ -1,0 +1,84 @@
+[15-Jul-2016 19:38:52 UTC] PHP Fatal error:  Cannot use 'Parent' as class name as it is reserved in /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php on line 36
+[15-Jul-2016 19:38:52 UTC] PHP Stack trace:
+[15-Jul-2016 19:38:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jul-2016 19:38:52 UTC] PHP   2. activate_plugin($plugin = *uninitialized*, $redirect = *uninitialized*, $network_wide = *uninitialized*, $silent = *uninitialized*) /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jul-2016 19:38:53 UTC] PHP Fatal error:  Cannot use 'Parent' as class name as it is reserved in /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php on line 36
+[15-Jul-2016 19:38:53 UTC] PHP Stack trace:
+[15-Jul-2016 19:38:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jul-2016 19:38:53 UTC] PHP   2. plugin_sandbox_scrape() /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jul-2016 19:39:38 UTC] PHP Fatal error:  Cannot use 'Parent' as class name as it is reserved in /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php on line 36
+[15-Jul-2016 19:39:38 UTC] PHP Stack trace:
+[15-Jul-2016 19:39:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jul-2016 19:39:38 UTC] PHP   2. plugin_sandbox_scrape($plugin = *uninitialized*) /home/ubuntu/workspace/wp-admin/plugins.php:164
+[15-Jul-2016 20:18:01 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/wp-includes/query.php on line 28
+[15-Jul-2016 20:18:01 UTC] PHP Stack trace:
+[15-Jul-2016 20:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 20:18:01 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 20:18:01 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 20:18:01 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 20:18:01 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[15-Jul-2016 20:18:01 UTC] PHP   6. get_query_var() /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php:35
+[15-Jul-2016 20:18:17 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/wp-includes/query.php on line 28
+[15-Jul-2016 20:18:17 UTC] PHP Stack trace:
+[15-Jul-2016 20:18:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 20:18:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 20:18:17 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 20:18:17 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 20:18:17 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[15-Jul-2016 20:18:17 UTC] PHP   6. get_query_var() /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php:35
+[15-Jul-2016 20:19:17 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/wp-includes/query.php on line 28
+[15-Jul-2016 20:19:17 UTC] PHP Stack trace:
+[15-Jul-2016 20:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 20:19:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 20:19:17 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 20:19:17 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 20:19:17 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[15-Jul-2016 20:19:17 UTC] PHP   6. get_query_var() /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php:35
+[15-Jul-2016 20:19:33 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/wp-includes/query.php on line 28
+[15-Jul-2016 20:19:33 UTC] PHP Stack trace:
+[15-Jul-2016 20:19:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 20:19:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 20:19:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 20:19:33 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 20:19:33 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[15-Jul-2016 20:19:33 UTC] PHP   6. get_query_var() /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php:35
+[15-Jul-2016 20:21:34 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/wp-includes/query.php on line 28
+[15-Jul-2016 20:21:34 UTC] PHP Stack trace:
+[15-Jul-2016 20:21:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 20:21:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 20:21:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 20:21:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 20:21:34 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[15-Jul-2016 20:21:34 UTC] PHP   6. get_query_var() /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php:35
+[15-Jul-2016 20:23:35 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/wp-includes/query.php on line 28
+[15-Jul-2016 20:23:35 UTC] PHP Stack trace:
+[15-Jul-2016 20:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 20:23:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 20:23:35 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 20:23:35 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 20:23:35 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[15-Jul-2016 20:23:35 UTC] PHP   6. get_query_var() /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php:35
+[15-Jul-2016 20:25:36 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/wp-includes/query.php on line 28
+[15-Jul-2016 20:25:36 UTC] PHP Stack trace:
+[15-Jul-2016 20:25:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 20:25:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 20:25:36 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 20:25:36 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 20:25:36 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[15-Jul-2016 20:25:36 UTC] PHP   6. get_query_var() /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php:35
+[15-Jul-2016 20:27:37 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/wp-includes/query.php on line 28
+[15-Jul-2016 20:27:37 UTC] PHP Stack trace:
+[15-Jul-2016 20:27:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 20:27:37 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 20:27:37 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 20:27:37 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 20:27:37 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[15-Jul-2016 20:27:37 UTC] PHP   6. get_query_var() /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php:35
+[15-Jul-2016 20:29:38 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/wp-includes/query.php on line 28
+[15-Jul-2016 20:29:38 UTC] PHP Stack trace:
+[15-Jul-2016 20:29:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 20:29:38 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 20:29:38 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 20:29:38 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 20:29:38 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[15-Jul-2016 20:29:38 UTC] PHP   6. get_query_var() /home/ubuntu/workspace/wp-content/plugins/the-register-extension/the-register-extension.php:35
