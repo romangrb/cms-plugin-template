@@ -15,8 +15,8 @@ Author URI: http://...
 * get the base class of EventCalendar
 */
 
-if(!class_exists('Tribe__Events__Main')) {
-    require_once dirname( __FILE__ ) . 'plugins/the-events-calendar/src/Tribe/Main.php';
+if ( ! class_exists( 'Tribe__Events__Main' ) ) {
+    echo "<h1>class Tribe__Events__Main isn\'t locaded</h1>"; 
 }
 
 /**
@@ -30,7 +30,8 @@ class MyChildClass extends Tribe__Events__Main{
     }
     
     function print_hello() { 
-      echo "<h1>Hello</h1>"; 
+      echo "<h1>Hello</h1>";
+     
     }
     
 }
@@ -38,7 +39,13 @@ class MyChildClass extends Tribe__Events__Main{
 $cl = new MyChildClass;
 
 $cl->print_hello();
+// all avaible methods
+var_dump(get_class_methods($cl));
+// all avaible attributes
+var_dump(get_class_vars($cl));
 
+// $a = method_exists (  Tribe__Events__Main , "instance" ) ?  "yes" :  "no";
+// var_dump($a);
 // class Cat {
 //   function parent_funct() { echo "<h1>Это родительская функция</h1>"; }
 //   function test () { echo "<h1>Это родительский класс</h1>"; }
