@@ -36,13 +36,13 @@ class MyChildClass extends Tribe__Events__Main{
     
 }
 
-$cl = new MyChildClass;
+//$cl = new MyChildClass;
 
-$cl->print_hello();
+//$cl->print_hello();
 // all avaible methods
-var_dump(get_class_methods($cl));
+//var_dump(get_class_methods($cl));
 // all avaible attributes
-var_dump(get_class_vars($cl));
+//var_dump(get_class_vars($cl));
 
 // $a = method_exists (  Tribe__Events__Main , "instance" ) ?  "yes" :  "no";
 // var_dump($a);
